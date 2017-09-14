@@ -1,5 +1,6 @@
 ## TP 7: Librairies
 
+```
 async function require(url) {
   let response = await fetch(url);
   let script = await response.text();
@@ -11,3 +12,4 @@ let momentUrl = 'https://momentjs.com/downloads/moment-with-locales.min.js'
 
 var _ = require(lodashUrl);
 var moment = require(momentUrl);
+```
